@@ -13,4 +13,16 @@
  git branch -D <branch> #delete branch
  git checkout <branch name> # switch to branch
 
+ git merge <branch name> #merge branch
+ git remote -v # view remotes
+ git pull origin <branch> #pull changes
+ git push origin <branch> #push changes
+ git log #view commit history
+ git log --oneline #view short commit history
+ git revert <commit> #revert commit
+ git reset <commit> #reset to commitgit tag #list tags
+ git tag -a v1.0 -m"tag" # create annotated tag
+ git clone <repo url> #clone repository
+
+
 ```
